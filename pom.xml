@@ -151,12 +151,12 @@
             <dependency>
                 <groupId>io.prometheus</groupId>
                 <artifactId>simpleclient_servlet</artifactId>
-                <version>0.16.0</version>
+                <version>${dep.prometheus.client.version}</version>
             </dependency>
             <dependency>
                 <groupId>io.prometheus</groupId>
                 <artifactId>simpleclient_hotspot</artifactId>
-                <version>0.16.0</version>
+                <version>${dep.prometheus.client.version}</version>
             </dependency>
 
             <!-- jetcd -->
